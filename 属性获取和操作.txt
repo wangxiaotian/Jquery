@@ -1,0 +1,5 @@
+1.获取属性节点
+    <p title = "选择你最喜欢的苹果"></p>
+    var $p = $('p');
+    var p_txt = $p.attr('title');               //获取节点属性title
+    alert(p_txt);                              //选择你最喜欢的苹果
